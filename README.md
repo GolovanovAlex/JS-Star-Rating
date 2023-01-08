@@ -1,4 +1,4 @@
-# JS Star Rating
+# Star Rating
 
 ![gif](readme/underconstruction.gif)
 
