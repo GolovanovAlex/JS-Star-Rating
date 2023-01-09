@@ -5,3 +5,32 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffb851;
+}
+.rating-box {
+  padding: 25px 50px;
+  background-color: #f1f1f1;
+  border-radius: 25px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+.rating-box h3 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.rating-box .stars {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.stars i {
+  font-size: 35px;
+  color: #e6e6e6;
+  cursor: pointer;
+}
